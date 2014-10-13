@@ -2,8 +2,8 @@
 
 NFJWordmatcher searches a text for many keywords using  Aho-Corasick algorithm or Regular-expression.
 
-![sample01](https://raw.githubusercontent.com/naokif/NFJWordmatcher/develop/screenshot01.png)
-![sample02](https://raw.githubusercontent.com/naokif/NFJWordmatcher/develop/screenshot02.png)
+![sample01](https://raw.githubusercontent.com/naokif/NFJWordmacher/master/screenshot01.png)
+![sample02](https://raw.githubusercontent.com/naokif/NFJWordmacher/master/screenshot02.png)
 
 ##Usage
 (see sample Xcode project in ```/Demo```)
@@ -15,7 +15,7 @@ NFJWordmatcher searches a text for many keywords using  Aho-Corasick algorithm o
 - (BOOL)addIndex:(NSString *)string object:(id)object useRegex:(BOOL)useRegex;
 ```
 
-####2.Call ```-fixIndex``` to make Trie
+####2,Call ```-fixIndex``` to make Trie
 ```objc
 - (BOOL)fixIndex;
 ```

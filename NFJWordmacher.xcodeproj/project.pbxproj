@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B025A79719EB5E5400E757ED /* jpDummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = B025A79519EB5E5400E757ED /* jpDummy.txt */; };
+		B025A79819EB5E5400E757ED /* TemplateIcon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B025A79619EB5E5400E757ED /* TemplateIcon2x.png */; };
+		B025A79A19EB5E6700E757ED /* enDummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = B025A79919EB5E6700E757ED /* enDummy.txt */; };
+		B0FD55C319EB46B00031A0B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FD55C219EB46B00031A0B0 /* main.m */; };
+		B0FD55C619EB46B00031A0B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FD55C519EB46B00031A0B0 /* AppDelegate.m */; };
+		B0FD55C919EB46B00031A0B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FD55C819EB46B00031A0B0 /* ViewController.m */; };
+		B0FD55CE19EB46B00031A0B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0FD55CD19EB46B00031A0B0 /* Images.xcassets */; };
+		B0FD55DD19EB46B00031A0B0 /* NFJWordmacherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FD55DC19EB46B00031A0B0 /* NFJWordmacherTests.m */; };
+		B0FD55EB19EB47590031A0B0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0FD55E719EB47590031A0B0 /* LaunchScreen.xib */; };
+		B0FD55EC19EB47590031A0B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0FD55E919EB47590031A0B0 /* Main.storyboard */; };
+		B0FD55EF19EB49E40031A0B0 /* NFJWordmatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FD55EE19EB49E40031A0B0 /* NFJWordmatcher.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0FD55D719EB46B00031A0B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0FD55B519EB46AF0031A0B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0FD55BC19EB46AF0031A0B0;
+			remoteInfo = NFJWordmacher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B025A79519EB5E5400E757ED /* jpDummy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = jpDummy.txt; sourceTree = "<group>"; };
+		B025A79619EB5E5400E757ED /* TemplateIcon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon2x.png; sourceTree = "<group>"; };
+		B025A79919EB5E6700E757ED /* enDummy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = enDummy.txt; sourceTree = "<group>"; };
+		B0FD55BD19EB46B00031A0B0 /* NFJWordmacher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFJWordmacher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0FD55C119EB46B00031A0B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0FD55C219EB46B00031A0B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0FD55C419EB46B00031A0B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B0FD55C519EB46B00031A0B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B0FD55C719EB46B00031A0B0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B0FD55C819EB46B00031A0B0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B0FD55CD19EB46B00031A0B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B0FD55D619EB46B00031A0B0 /* NFJWordmacherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NFJWordmacherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0FD55DB19EB46B00031A0B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0FD55DC19EB46B00031A0B0 /* NFJWordmacherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NFJWordmacherTests.m; sourceTree = "<group>"; };
+		B0FD55E819EB47590031A0B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B0FD55EA19EB47590031A0B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0FD55ED19EB49E40031A0B0 /* NFJWordmatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFJWordmatcher.h; sourceTree = "<group>"; };
+		B0FD55EE19EB49E40031A0B0 /* NFJWordmatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFJWordmatcher.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0FD55BA19EB46AF0031A0B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0FD55D319EB46B00031A0B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0FD55B419EB46AF0031A0B0 = {
+			isa = PBXGroup;
+			children = (
+				B0FD55E619EB46BE0031A0B0 /* Demo */,
+				B0FD55BF19EB46B00031A0B0 /* NFJWordmacher */,
+				B0FD55D919EB46B00031A0B0 /* NFJWordmacherTests */,
+				B0FD55BE19EB46B00031A0B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0FD55BE19EB46B00031A0B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0FD55BD19EB46B00031A0B0 /* NFJWordmacher.app */,
+				B0FD55D619EB46B00031A0B0 /* NFJWordmacherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0FD55BF19EB46B00031A0B0 /* NFJWordmacher */ = {
+			isa = PBXGroup;
+			children = (
+				B0FD55ED19EB49E40031A0B0 /* NFJWordmatcher.h */,
+				B0FD55EE19EB49E40031A0B0 /* NFJWordmatcher.m */,
+			);
+			path = NFJWordmacher;
+			sourceTree = "<group>";
+		};
+		B0FD55C019EB46B00031A0B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0FD55C119EB46B00031A0B0 /* Info.plist */,
+				B0FD55C219EB46B00031A0B0 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0FD55D919EB46B00031A0B0 /* NFJWordmacherTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0FD55DC19EB46B00031A0B0 /* NFJWordmacherTests.m */,
+				B0FD55DA19EB46B00031A0B0 /* Supporting Files */,
+			);
+			path = NFJWordmacherTests;
+			sourceTree = "<group>";
+		};
+		B0FD55DA19EB46B00031A0B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0FD55DB19EB46B00031A0B0 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0FD55E619EB46BE0031A0B0 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				B0FD55C419EB46B00031A0B0 /* AppDelegate.h */,
+				B0FD55C519EB46B00031A0B0 /* AppDelegate.m */,
+				B0FD55C719EB46B00031A0B0 /* ViewController.h */,
+				B0FD55C819EB46B00031A0B0 /* ViewController.m */,
+				B025A79519EB5E5400E757ED /* jpDummy.txt */,
+				B025A79919EB5E6700E757ED /* enDummy.txt */,
+				B025A79619EB5E5400E757ED /* TemplateIcon2x.png */,
+				B0FD55CD19EB46B00031A0B0 /* Images.xcassets */,
+				B0FD55E719EB47590031A0B0 /* LaunchScreen.xib */,
+				B0FD55E919EB47590031A0B0 /* Main.storyboard */,
+				B0FD55C019EB46B00031A0B0 /* Supporting Files */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0FD55BC19EB46AF0031A0B0 /* NFJWordmacher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0FD55E019EB46B00031A0B0 /* Build configuration list for PBXNativeTarget "NFJWordmacher" */;
+			buildPhases = (
+				B0FD55B919EB46AF0031A0B0 /* Sources */,
+				B0FD55BA19EB46AF0031A0B0 /* Frameworks */,
+				B0FD55BB19EB46AF0031A0B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NFJWordmacher;
+			productName = NFJWordmacher;
+			productReference = B0FD55BD19EB46B00031A0B0 /* NFJWordmacher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0FD55D519EB46B00031A0B0 /* NFJWordmacherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0FD55E319EB46B00031A0B0 /* Build configuration list for PBXNativeTarget "NFJWordmacherTests" */;
+			buildPhases = (
+				B0FD55D219EB46B00031A0B0 /* Sources */,
+				B0FD55D319EB46B00031A0B0 /* Frameworks */,
+				B0FD55D419EB46B00031A0B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0FD55D819EB46B00031A0B0 /* PBXTargetDependency */,
+			);
+			name = NFJWordmacherTests;
+			productName = NFJWordmacherTests;
+			productReference = B0FD55D619EB46B00031A0B0 /* NFJWordmacherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0FD55B519EB46AF0031A0B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = nfujii;
+				TargetAttributes = {
+					B0FD55BC19EB46AF0031A0B0 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					B0FD55D519EB46B00031A0B0 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = B0FD55BC19EB46AF0031A0B0;
+					};
+				};
+			};
+			buildConfigurationList = B0FD55B819EB46AF0031A0B0 /* Build configuration list for PBXProject "NFJWordmacher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0FD55B419EB46AF0031A0B0;
+			productRefGroup = B0FD55BE19EB46B00031A0B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0FD55BC19EB46AF0031A0B0 /* NFJWordmacher */,
+				B0FD55D519EB46B00031A0B0 /* NFJWordmacherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0FD55BB19EB46AF0031A0B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B025A79A19EB5E6700E757ED /* enDummy.txt in Resources */,
+				B025A79819EB5E5400E757ED /* TemplateIcon2x.png in Resources */,
+				B0FD55EC19EB47590031A0B0 /* Main.storyboard in Resources */,
+				B0FD55EB19EB47590031A0B0 /* LaunchScreen.xib in Resources */,
+				B0FD55CE19EB46B00031A0B0 /* Images.xcassets in Resources */,
+				B025A79719EB5E5400E757ED /* jpDummy.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0FD55D419EB46B00031A0B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0FD55B919EB46AF0031A0B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0FD55C919EB46B00031A0B0 /* ViewController.m in Sources */,
+				B0FD55EF19EB49E40031A0B0 /* NFJWordmatcher.m in Sources */,
+				B0FD55C619EB46B00031A0B0 /* AppDelegate.m in Sources */,
+				B0FD55C319EB46B00031A0B0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0FD55D219EB46B00031A0B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0FD55DD19EB46B00031A0B0 /* NFJWordmacherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0FD55D819EB46B00031A0B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0FD55BC19EB46AF0031A0B0 /* NFJWordmacher */;
+			targetProxy = B0FD55D719EB46B00031A0B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0FD55E719EB47590031A0B0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0FD55E819EB47590031A0B0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		B0FD55E919EB47590031A0B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0FD55EA19EB47590031A0B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0FD55DE19EB46B00031A0B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B0FD55DF19EB46B00031A0B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0FD55E119EB46B00031A0B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Demo/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B0FD55E219EB46B00031A0B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Demo/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B0FD55E419EB46B00031A0B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NFJWordmacherTests/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NFJWordmacher.app/NFJWordmacher";
+			};
+			name = Debug;
+		};
+		B0FD55E519EB46B00031A0B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NFJWordmacherTests/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NFJWordmacher.app/NFJWordmacher";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0FD55B819EB46AF0031A0B0 /* Build configuration list for PBXProject "NFJWordmacher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0FD55DE19EB46B00031A0B0 /* Debug */,
+				B0FD55DF19EB46B00031A0B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0FD55E019EB46B00031A0B0 /* Build configuration list for PBXNativeTarget "NFJWordmacher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0FD55E119EB46B00031A0B0 /* Debug */,
+				B0FD55E219EB46B00031A0B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0FD55E319EB46B00031A0B0 /* Build configuration list for PBXNativeTarget "NFJWordmacherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0FD55E419EB46B00031A0B0 /* Debug */,
+				B0FD55E519EB46B00031A0B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0FD55B519EB46AF0031A0B0 /* Project object */;
+}
